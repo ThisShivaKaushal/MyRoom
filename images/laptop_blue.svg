@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" fill="none">
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60B5F5"/>
+      <stop offset="0.55" stop-color="#2196F3"/>
+      <stop offset="1" stop-color="#1565C0"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#E3E6EA"/>
+      <stop offset="1" stop-color="#AEB5BE"/>
+    </linearGradient>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#2D3035"/>
+      <stop offset="1" stop-color="#17191C"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="210" y="70" width="780" height="500" rx="24" fill="url(#bezel)"/>
+  <rect x="234" y="100" width="732" height="430" fill="url(#screen)"/>
+  <path d="M620 530H966V100L620 530Z" fill="#FFF" opacity=".14"/>
+  <circle cx="600" cy="85" r="5" fill="#5C6269"/>
+
+  <rect x="270" y="560" width="660" height="20" rx="8" fill="#555B62"/>
+
+  <path d="M215 570H985L1110 765Q1125 790 1092 795H108Q75 790 90 765L215 570Z" fill="url(#body)"/>
+  <path d="M90 765H1110Q1125 790 1092 795H108Q75 790 90 765Z" fill="#8D969F"/>
+
+  <g fill="#292D31">
+    <rect x="235" y="595" width="50" height="12" rx="4"/><rect x="295" y="595" width="50" height="12" rx="4"/><rect x="355" y="595" width="50" height="12" rx="4"/><rect x="415" y="595" width="50" height="12" rx="4"/><rect x="475" y="595" width="50" height="12" rx="4"/><rect x="535" y="595" width="50" height="12" rx="4"/><rect x="595" y="595" width="50" height="12" rx="4"/><rect x="655" y="595" width="50" height="12" rx="4"/><rect x="715" y="595" width="50" height="12" rx="4"/><rect x="775" y="595" width="50" height="12" rx="4"/><rect x="835" y="595" width="50" height="12" rx="4"/><rect x="895" y="595" width="50" height="12" rx="4"/>
+    <rect x="225" y="615" width="65" height="16" rx="4"/><rect x="300" y="615" width="55" height="16" rx="4"/><rect x="365" y="615" width="55" height="16" rx="4"/><rect x="430" y="615" width="55" height="16" rx="4"/><rect x="495" y="615" width="55" height="16" rx="4"/><rect x="560" y="615" width="55" height="16" rx="4"/><rect x="625" y="615" width="55" height="16" rx="4"/><rect x="690" y="615" width="55" height="16" rx="4"/><rect x="755" y="615" width="55" height="16" rx="4"/><rect x="820" y="615" width="55" height="16" rx="4"/><rect x="885" y="615" width="70" height="16" rx="4"/>
+    <rect x="215" y="640" width="75" height="17" rx="4"/><rect x="300" y="640" width="60" height="17" rx="4"/><rect x="370" y="640" width="60" height="17" rx="4"/><rect x="440" y="640" width="60" height="17" rx="4"/><rect x="510" y="640" width="60" height="17" rx="4"/><rect x="580" y="640" width="60" height="17" rx="4"/><rect x="650" y="640" width="60" height="17" rx="4"/><rect x="720" y="640" width="60" height="17" rx="4"/><rect x="790" y="640" width="60" height="17" rx="4"/><rect x="860" y="640" width="85" height="17" rx="4"/>
+    <rect x="205" y="665" width="90" height="18" rx="4"/><rect x="305" y="665" width="65" height="18" rx="4"/><rect x="380" y="665" width="65" height="18" rx="4"/><rect x="455" y="665" width="65" height="18" rx="4"/><rect x="530" y="665" width="65" height="18" rx="4"/><rect x="605" y="665" width="65" height="18" rx="4"/><rect x="680" y="665" width="65" height="18" rx="4"/><rect x="755" y="665" width="65" height="18" rx="4"/><rect x="830" y="665" width="110" height="18" rx="4"/>
+    <rect x="215" y="692" width="75" height="18" rx="4"/><rect x="300" y="692" width="65" height="18" rx="4"/><rect x="375" y="692" width="65" height="18" rx="4"/><rect x="450" y="692" width="65" height="18" rx="4"/><rect x="525" y="692" width="65" height="18" rx="4"/><rect x="600" y="692" width="150" height="18" rx="4"/><rect x="760" y="692" width="65" height="18" rx="4"/><rect x="835" y="692" width="65" height="18" rx="4"/><rect x="910" y="692" width="55" height="18" rx="4"/>
+  </g>
+
+  <rect x="450" y="725" width="300" height="65" rx="8" fill="#A9B0B9" opacity=".8"/>
+  <rect x="535" y="795" width="130" height="8" rx="4" fill="#8B949D"/>
+</svg>

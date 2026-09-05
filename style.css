@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --cyan: #249d8f;
+}
+
+body {
+    width: min(100vh, calc(100vh * 16/9));
+    background-color: var(--cyan);
+    aspect-ratio: 16/9;
+    overflow: hidden;
+}
+
+.mainscreen {
+    width: min(100vh, calc(100vh * 16/9));
+    aspect-ratio: 16/9;
+    position: relative;
+    overflow: hidden;
+}
+
+.room {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.desk {
+    position: absolute;
+    left: 380px;
+    top: 250px;
+}
+
+
+.laptop-box {
+    position: absolute;
+    scale: 280%;
+    left: 600px;
+    top: 360px;
+    width: 100px;
+    height: auto;
+    transition: transform 0.4s ease;
+
+}
+
+
+.laptop-box img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.4s ease;
+
+}
+
+.img-blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+}
+
+
+.laptop-box:hover {
+    transform: scale(1.2);
+
+}
+
+.laptop-box:hover .img-white {
+    opacity: 0;
+
+}
+
+.laptop-box:hover .img-blue {
+    opacity: 1;
+
+}
+
+.room:has(.laptop-box:hover)>*:not(.laptop-box) {
+    filter: blur(5px);
+    transition: filter 0.3s ease;
+}
+
+.room>* {
+    transition: filter 0.3s ease;
+}
