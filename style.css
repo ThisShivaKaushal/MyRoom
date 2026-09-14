@@ -76,10 +76,155 @@ body {
 }
 
 .room:has(.laptop-box:hover)>*:not(.laptop-box) {
-    filter: blur(5px);
+    filter: blur(1px);
     transition: filter 0.3s ease;
 }
 
 .room>* {
     transition: filter 0.3s ease;
+}
+
+.coke {
+    position: absolute;
+    scale: 15%;
+    left: 408px;
+    top: 117px;
+    width: 100px;
+    height: auto;
+    transition: transform 0.4s ease;
+}
+
+.coke:hover {
+    transform: scale(1.2);
+}
+
+.room:has(.coke:hover)>*:not(.coke):not(.coketext) {
+    filter: blur(1px);
+    transition: filter 0.4s ease;
+}
+
+.room>* {
+    transition: filter 0.4s ease;
+}
+
+
+.coketext {
+    position: absolute;
+    left: 455px;
+    top: 470px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid transparent;
+}
+
+.room:has(.coke:hover) .coketext {
+
+    animation:
+        typing 2s steps(22, end) forwards,
+        blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+
+    to {
+        width: 800px;
+
+    }
+}
+
+
+@keyframes blink {
+    50% {
+        border-color: red;
+    }
+}
+
+.cupboard {
+    position: absolute;
+    scale: 520%;
+    left: 1090px;
+    top: 278px;
+    width: 100px;
+    height: auto;
+}
+
+.betterthanthemovies {
+    position: absolute;
+    scale: 105%;
+    left: 910px;
+    top: 42px;
+    width: 100px;
+    height: auto;
+    transition: transform 0.4 ease;
+}
+
+
+.betterthanthemovies img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.4s ease;
+}
+
+.betterthanthemovies-tilt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    scale: 118%;
+}
+
+.betterthanthemovies:hover .betterthanthemovies-spine {
+    opacity: 0;
+}
+
+.betterthanthemovies:hover .betterthanthemovies-tilt {
+    opacity: 1;
+}
+
+.room:has(.betterthanthemovies:hover)>*:not(.betterthanthemovies) {
+    filter: blur(1px);
+    transition: filter 0.4s ease;
+}
+
+.room> {
+
+    transition: filter 0.4s ease;
+}
+
+.shoes {
+    position: absolute;
+    scale: 25%;
+    left: 890px;
+    top: 420px;
+    width: 100px;
+    height: auto;
+    transition: transform 0.4 ease;
+}
+
+.shoes:hover {
+    transform: scale(1.05);
+}
+
+.room:has(.shoes:hover)>*:not(.shoes) {
+    filter: blur(1px);
+    transition: filter 0.4s ease;
+}
+
+.character1 {
+    position: absolute;
+    scale: 25%;
+    left: 960px;
+    top: 100px;
+    width: 10px;
+    height: auto;
+    transition: transform 0.4 ease;
 }
