@@ -1,0 +1,229 @@
+:root {
+    --white: #ffffff;
+    --cyan: #249d8f;
+    --font: Roboto, Arial, sans-serif;
+    --font-color: #E0F2F1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font);
+    background-color: var(--cyan);
+    color: var(--font-color);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 6px 4px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-bottom: 1px solid rgba(224, 242, 241, 0.5);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.ThisShivaKaushal {
+    max-height: 70px;
+    width: auto;
+    padding-top: 12px;
+}
+
+.profile {
+    max-height: 280px;
+    width: auto;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 80px;
+    color: white;
+}
+
+.bio {
+    font-size: 14px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-left: 53px;
+    line-height: 1.4;
+}
+
+.aboutme-container {
+    position: flex;
+}
+
+.back-icon {
+    position: absolute;
+    top: 38px;
+    left: 1300px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.back-icon:hover {
+    scale: 5%;
+}
+
+.social-links {
+    list-style: none;
+
+}
+
+#sociallinks {
+    position: absolute;
+    top: 460px;
+    left: 80px;
+    font-weight: 550;
+    color: whitesmoke;
+}
+
+.instagram img {
+    position: absolute;
+    top: 520px;
+    left: 53px;
+    max-height: 30px;
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.linktextig {
+    position: absolute;
+    top: 525px;
+    left: 85px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+.instagram:hover {
+    opacity: 70%;
+}
+
+.github img {
+    position: absolute;
+    top: 570px;
+    left: 53px;
+    max-height: 30px;
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+}
+
+.linktextgb {
+    position: absolute;
+    top: 575px;
+    left: 85px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.github:hover {
+    opacity: 70%;
+
+}
+
+.x {
+    position: absolute;
+    top: 620px;
+    left: 53px;
+    max-height: 30px;
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+}
+
+.linktextx {
+    position: absolute;
+    top: 625px;
+    left: 85px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 10px
+}
+
+.x:hover,
+.linktextx:hover {
+    opacity: 70%;
+}
+
+.linkedin {
+    position: absolute;
+    top: 670px;
+    left: 53px;
+    max-height: 30px;
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+}
+
+.linktextln {
+    position: absolute;
+    top: 675px;
+    left: 85px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 10px
+}
+
+.linkedin:hover,
+.linktextln:hover {
+
+    opacity: 70%;
+}
+
+.youtube {
+    position: absolute;
+    top: 720px;
+    left: 53px;
+    max-height: 30px;
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+}
+
+.linktextyt {
+    position: absolute;
+    top: 725px;
+    left: 85px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 10px
+}
+
+.youtube:hover,
+.linktextyt:hover {
+    opacity: 70%;
+}
+
+.aboutme-container {
+
+    margin-left: 250px;
+}
+
+.aboutme-shiva {
+    max-height: 980px;
+    width: auto;
+    top: 180px;
+    position: absolute;
+    margin-left: 380px;
+}
