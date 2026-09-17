@@ -86,9 +86,9 @@ body {
 
 .coke {
     position: absolute;
-    scale: 15%;
-    left: 408px;
-    top: 117px;
+    scale: 65%;
+    left: 435px;
+    top: 350px;
     width: 100px;
     height: auto;
     transition: transform 0.4s ease;
@@ -157,43 +157,6 @@ body {
     height: auto;
 }
 
-.betterthanthemovies {
-    position: absolute;
-    scale: 105%;
-    left: 910px;
-    top: 42px;
-    width: 100px;
-    height: auto;
-    transition: transform 0.4 ease;
-}
-
-
-.betterthanthemovies img {
-    width: 100px;
-    height: auto;
-    transition: transform 0.4s ease;
-}
-
-.betterthanthemovies-tilt {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    scale: 118%;
-}
-
-.betterthanthemovies:hover .betterthanthemovies-spine {
-    opacity: 0;
-}
-
-.betterthanthemovies:hover .betterthanthemovies-tilt {
-    opacity: 1;
-}
-
-.room:has(.betterthanthemovies:hover)>*:not(.betterthanthemovies) {
-    filter: blur(1px);
-    transition: filter 0.4s ease;
-}
 
 .room> {
 
@@ -202,16 +165,16 @@ body {
 
 .shoes {
     position: absolute;
-    scale: 25%;
-    left: 890px;
-    top: 420px;
+    scale: 185%;
+    left: 970px;
+    top: 580px;
     width: 100px;
     height: auto;
     transition: transform 0.4 ease;
 }
 
 .shoes:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .room:has(.shoes:hover)>*:not(.shoes) {
@@ -221,10 +184,329 @@ body {
 
 .character1 {
     position: absolute;
-    scale: 25%;
-    left: 960px;
-    top: 100px;
-    width: 10px;
+    scale: 140%;
+    left: 950px;
+    top: 252px;
+    width: 80px;
+    height: auto;
+    transition: transform 0.4 ease;
+}
+
+.character:hover {
+    scale: 1.2%;
+}
+
+.room:has(.character1:hover)>*:not(.character1) {
+    filter: blur(1px);
+    transition: filter 0.4s ease;
+}
+
+.headphone {
+    position: absolute;
+    scale: 95%;
+    left: 760px;
+    top: 417px;
+    width: 100px;
+    height: auto;
+    transition: transform 0.4s ease;
+}
+
+.headphone:hover {
+    transform: scale(1.2);
+}
+
+.room:has(.headphone:hover)>*:not(.headphone) {
+    filter: blur(1px);
+    transition: filter 0.4s ease;
+}
+
+.plant {
+    position: absolute;
+    scale: 175%;
+    left: 88px;
+    top: 500px;
+    width: 100px;
+    height: auto;
+}
+
+.camera {
+
+    position: absolute;
+    scale: 85%;
+    left: 1200px;
+    top: 280px;
+    width: 100px;
+    height: auto;
+    transition: transform 0.4s ease;
+}
+
+.camera:hover {
+    transform: scale(1.2);
+}
+
+.room:has(.camera:hover)>*:not(.camera) {
+    filter: blur(1px);
+    transition: filter 0.4s ease;
+}
+
+.globe {
+    position: absolute;
+    scale: 95%;
+    left: 1060px;
+    top: 213px;
+    width: 100px;
+    height: auto;
+    transition: transform 0.4s ease;
+}
+
+.globe:hover {
+    transform: scale(1.1);
+}
+
+.room:has(.globe:hover)>*:not(.globe) {
+    filter: blur(1px);
+    transition: filter 0.4s ease;
+}
+
+.betterthanthemovies-spine {
+    position: absolute;
+    scale: 20%;
+    left: 910px;
+    top: -265px;
+    width: 100px;
+    height: auto;
+
+
+}
+
+.betterthanthemovies-tilt {
+    position: absolute;
+    scale: 130%;
+    left: 910px;
+    top: 40px;
+    width: 100px;
+    height: auto;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.betterthanthemovies-spine:hover {
+    opacity: 0;
+    transition: filter 0.4 ease;
+}
+
+.betterthanthemovies-spine:hover+.betterthanthemovies-tilt {
+    opacity: 1;
+    transition: filter 0.4 ease;
+    z-index: 999;
+}
+
+.room:has(.betterthanthemovies-spine:hover)>*:not(.betterthanthemovies-spine):not(.betterthanthemovies-tilt) {
+    filter: blur(1px);
+    transition: filter 0.4s ease;
+}
+
+.theupsideoffallinginlove-spine {
+    position: absolute;
+    scale: 23%;
+    left: 938px;
+    top: -157px;
+    width: 100px;
+    height: auto;
+    transform: rotate(-7deg);
+
+}
+
+.theupsideoffallinginlove-tilt {
+    position: absolute;
+    scale: 100%;
+    left: 920px;
+    top: 40px;
+    width: 100px;
+    height: auto;
+    opacity: 0;
+    transform: rotate(-10deg);
+    pointer-events: none;
+}
+
+.theupsideoffallinginlove-spine:hover {
+    opacity: 0;
+}
+
+.theupsideoffallinginlove-spine:hover+.theupsideoffallinginlove-tilt {
+    opacity: 1;
+    transition: filter 0.4 ease;
+    z-index: 999;
+}
+
+.room:has(.theupsideoffallinginlove-spine:hover)>*:not(.theupsideoffallinginlove-spine):not(.theupsideoffallinginlove-tilt) {
+    filter: blur(1px);
+    transition: filter 0.4s ease;
+}
+
+.engineered-spine {
+    position: absolute;
+    scale: 27%;
+    left: 968px;
+    top: -115px;
+    width: 100px;
+    height: auto;
+
+
+}
+
+.engineered-tilt {
+    position: absolute;
+    scale: 100%;
+    left: 940px;
+    top: 40px;
+    width: 100px;
+    height: auto;
+    opacity: 0;
+    transform: rotate(-10deg);
+    pointer-events: none;
+
+}
+
+.engineered-spine:hover {
+    opacity: 0;
+    transition: filter 0.4 ease;
+}
+
+.engineered-spine:hover+.engineered-tilt {
+    opacity: 1;
+    transition: filter 0.4 ease;
+    z-index: 999;
+}
+
+.room:has(.engineered-spine:hover)>*:not(.engineered-spine):not(.engineered-tilt) {
+    filter: blur(1px);
+    transition: filter 0.4s ease;
+}
+
+.law-spine {
+    position: absolute;
+    scale: 27%;
+    left: 994px;
+    top: -132px;
+    width: 100px;
+    height: auto;
+}
+
+.law-tilt {
+    position: absolute;
+    scale: 100%;
+    left: 970px;
+    top: 40px;
+    width: 100px;
+    height: auto;
+    opacity: 0;
+    transform: rotate(-10deg);
+    pointer-events: none;
+
+}
+
+.law-spine:hover {
+    opacity: 0;
+    transition: filter 0.4 ease;
+}
+
+.law-spine:hover+.law-tilt {
+    opacity: 1;
+    transition: filter 0.4 ease;
+    z-index: 999;
+}
+
+.room:has(.law-spine:hover)>*:not(.law-spine):not(.law-tilt) {
+    filter: blur(1px);
+    transition: filter 0.4s ease;
+}
+
+.medal {
+    position: absolute;
+    scale: 80%;
+    left: 1080px;
+    top: 78px;
+    width: 100px;
+    height: auto;
+    transition: 0.4 ease;
+}
+
+.medal:hover {
+    transform: scale(1.1);
+}
+
+.room:has(.medal:hover)>*:not(.medal) {
+    filter: blur(1px);
+    transition: filter 0.4s ease;
+}
+
+.rocket {
+    position: absolute;
+    scale: 65%;
+    left: 1200px;
+    top: 30px;
+    width: 100px;
+    height: auto;
+    transition: 0.4 ease;
+}
+
+.rocket:hover {
+    transform: scale(1.1);
+}
+
+.room:has(.rocket:hover)>*:not(.rocket) {
+    filter: blur(1px);
+    transition: filter 0.4 ease;
+}
+
+.poster {
+    position: absolute;
+    scale: 200%;
+    left: 88px;
+    top: 80px;
+    width: 100px;
+    height: auto;
+}
+
+.posters {
+    position: absolute;
+    scale: 320%;
+    left: 590px;
+    top: 140px;
+    width: 100px;
+    height: auto;
+}
+
+.cloths {
+    position: absolute;
+    scale: 245%;
+    left: 970px;
+    top: 430px;
+    width: 100px;
+    height: auto;
+    transition: transform 0.4 ease;
+}
+
+
+
+.cablebasket {
+    position: absolute;
+    scale: 160%;
+    left: 1170px;
+    top: 520px;
+    width: 100px;
+    height: auto;
+    transition: transform 0.4 ease;
+}
+
+.clothsbasket {
+    position: absolute;
+    scale: 160%;
+    left: 1150px;
+    top: 382px;
+    width: 100px;
     height: auto;
     transition: transform 0.4 ease;
 }
