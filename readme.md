@@ -2,6 +2,8 @@
 
 This room is where my favorite belongings live and where I spend most of my time. But today, the doors are wide open—because I’m officially making my room public!
 
+Check it out: ***https://shivaroom.vercel.app***
+
 
 ## Descrption
  
@@ -12,74 +14,36 @@ This room is where my favorite belongings live and where I spend most of my time
  ![preview](./images/preview.png)
  ![preview](./images/preview1.png)
 
+## Problem
 
-## What's actually in it
- 
-- **The desk** — laptop, headphones, and an ice-cold Diet Coke, because that's basically the holy trinity of getting anything done
-- **The vinyl wall** — a wall of records and posters stacked up behind the desk like a mood board that never got taken down
-- **The shelf** — books, a trophy, a little globe, a camera, a tiny Luffy figure standing guard, and a couple of baskets doing the honest work of hiding my clutter
-- **The plant** — surviving, against all odds
-- **The sneakers** — tucked in the corner because apparently even virtual rooms need virtual shoes on the floor
+It is not work in Mobile well, to make it work in mobile make your screen landscape. And it may work perfectly. But this works best in desktop screens. 
 
- 
-## The hover thing
- 
-This is the part I'm most proud of, honestly. Hover over any object in the room and everything *else* fades and blurs out — like the rest of the room politely steps back so that one thing gets the spotlight. 
+In ```Chrome``` Browser, it is tested, but not tested in ```FireFox``` and many more.
 
- 
-Pure CSS:
+## Getting Started
 
-```css
-.coke {
-    position: absolute;
-    scale: 65%;
-    left: 435px;
-    top: 350px;
-    width: 100px;
-    height: auto;
-    transition: transform 0.4s ease;
-}
+  First, clone this Repo:
 
-.coke:hover {
-    transform: scale(1.2);
-}
+  ```git clone https://github.com/ThisShivaKaushal/MyRoom.git```
 
-.room:has(.coke:hover)>*:not(.coke):not(.coketext) {
-    filter: blur(1px);
-    transition: filter 0.4s ease;
-}
-```
+  Second, go the Project Folder
 
- 
-## Built with
- 
-**HTML and CSS. That's the whole stack.**
- 
-I used HTML and CSS only to build this project because this is easy for me to write, and I am friendly with it, so I used this.
- 
-## Running it locally
+  ```cd MyRoom```
 
- 
-```bash
-git clone <your-repo-url>
-cd my-room
-open index.html
-```
+  Third, open
 
-## File structure
- 
-```
-my-room/
-├── index.html      # the room itself
-├── style.css       # everything — layout, positioning, the hover effect
-├── assets/         # illustrations / images for each object
-├    └──  preview.png      # screenshot for this README & many more
-├── icons/          # icons
-└── aboutme/        # aboutme page's stuff
-     └── aboutme.html        # all the html of aboutme page
-     └── aboutme.css         # all the css of aboutme page
+  ```Index.html```
 
-```
+## FrameWork
+
+I use ```HTML``` and ```CSS``` for this project, because it is easy to write.
+
+## Credits 
+
+Full credit goes to HackClub and its Pixl YSWS, who motivate us to make such stuff. 
+
+Hackclub: ***https://hackclub.com***
+Pixl: ***https://pixl.hackclub.com***
 
 ## License
  
