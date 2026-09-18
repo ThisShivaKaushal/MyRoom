@@ -1,12 +1,16 @@
-# 🛋️ My Room
- 
-A little corner of the internet that looks like my actual desk. Not a "portfolio," not a "dashboard" — just my room, rebuilt in a browser.
- 
-![preview](./images/preview.png)
+# My Room
 
-## What even is this
+This room is where my favorite belongings live and where I spend most of my time. But today, the doors are wide open—because I’m officially making my room public!
+
+
+## Descrption
  
-I got tired of portfolios that look like a resume wearing a website costume. So instead I just... built my room. The desk, the vinyl wall, the shelf with the trophy I definitely still bring up in conversations, the Luffy poster, the plant I'm somehow keeping alive — all of it, sitting there as a page you can actually explore instead of scroll past.
+ I was completely bored by portfolio websites, because if you make it simple, then for people it is not worth it. For this reason, you have to make a flashy one with a ton of animation, which people with low-end mobiles are not able to open. Because of this reason, I chose to make a unique one. I just duplicated my room into a web-playable website. Now you can interact with my room—just hover on any object, like when our eyes focus on anything then everything gets blurred, the same principle I applied here. And yeah, this is the brief of my project. And also, when you click on the laptop, then you will transfer to my about me page, where you can know a lot of stuff.
+
+### Screenshots
+
+ ![preview](./images/preview.png)
+ ![preview](./images/preview1.png)
 
 
 ## What's actually in it
@@ -16,15 +20,14 @@ I got tired of portfolios that look like a resume wearing a website costume. So 
 - **The shelf** — books, a trophy, a little globe, a camera, a tiny Luffy figure standing guard, and a couple of baskets doing the honest work of hiding my clutter
 - **The plant** — surviving, against all odds
 - **The sneakers** — tucked in the corner because apparently even virtual rooms need virtual shoes on the floor
-Every object is its own little element sitting exactly where it sits on my real desk. Nothing here is decorative filler — I picked each piece because it's actually mine.
+
  
 ## The hover thing
  
-This is the part I'm most proud of, honestly. Hover over any object in the room and everything *else* fades and blurs out — like the rest of the room politely steps back so that one thing gets the spotlight. Move your cursor, the spotlight moves with it.
+This is the part I'm most proud of, honestly. Hover over any object in the room and everything *else* fades and blurs out — like the rest of the room politely steps back so that one thing gets the spotlight. 
+
  
-It's a small effect but it's the one that makes the page feel less like a static illustration and more like a room you're actually standing in and looking around.
- 
-Pure CSS, no JavaScript required:
+Pure CSS:
 
 ```css
 .coke {
@@ -47,19 +50,15 @@ Pure CSS, no JavaScript required:
 }
 ```
 
-That's genuinely most of the magic. One selector doing the heavy lifting: "if the room is being hovered, blur everything that *isn't* the thing being hovered." Simple, but it makes the whole page feel alive.
  
 ## Built with
  
 **HTML and CSS. That's the whole stack.**
  
-No JavaScript. No React, no build tools, no `npm install`ing forty packages to render a plant. Every object is positioned, styled, and animated with plain old CSS — flexbox/absolute positioning for layout, `filter` and `transition` for the hover effect, and a lot of patience getting shadows to look right.
- 
-I wanted this to be the kind of project you can open in a text editor, read top to bottom, and understand in five minutes. No hidden build step, no config files to decode.
+I used HTML and CSS only to build this project because this is easy for me to write, and I am friendly with it, so I used this.
  
 ## Running it locally
 
-There's nothing to install. That's the whole point.
  
 ```bash
 git clone <your-repo-url>
