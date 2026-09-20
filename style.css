@@ -120,6 +120,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid transparent;
+    z-index: 999;
 }
 
 .room:has(.coke:hover) .coketext {
